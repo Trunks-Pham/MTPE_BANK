@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*Container - Sign*/
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+}
+
+.container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1,h2,h3{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3990c6;
+}
+
+.input-group {
+    margin-bottom: 20px; /* Khoảng cách giữa các input-group */
+}
+
+.input-group input,
+.container input[type="text"],
+.container input[type="password"],
+.container input[type="date"],
+.container input[type="gender"],
+.container input[type="number"],
+
+/* .container input[type="email"], */
+
+.container input[type="checkbox"] + label 
+.container label, 
+
+.container button
+{
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: border-color 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.container input[type="email"]{
+    width: calc(67.5%);
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: border-color 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+#terms{
+    margin-bottom: 20px;
+}
+
+.input-group input:focus,
+.container input:focus {
+    outline: none;
+    border-color: #3990c6;
+}
+
+button {
+    width: calc(100% - 20px);
+    padding: 10px 10px;
+    background-color: #2567ad;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #3a7bd5;
+}
+
+button[type="submit"] {
+    width: calc(100%);
+    height: 50px;
+}
+#otpButton{
+    width: calc(25%);
+}
+#back,#next{
+    width: calc(25%);
+    background-color: #2567ad;
+    color: #ffffff;
+}
+#back:hover,#next:hover{
+    background-color: #3a7bd5; 
+}
+.message {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e7f3fe;
+    border: 1px solid #b8daff;
+    border-radius: 8px;
+    color: #31708f;
+}
+
+a {
+    text-decoration: none; 
+    color: #000000; 
+    transition: color 0.3s ease-in-out;
+}
+
+p{
+    text-align: right;
+    font-size: 12px;
+}
+
+.signup-link, .signin-link{
+    text-align: center;
+    font-size: 15px;
+}
+
+@media (max-width: 900px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+/*Thông báo sai tài khoản mật khẩu*/
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+}
+
+.alert.success {background-color: #4CAF50;}
+.alert.info {background-color: #2196F3;}
+.alert.warning {background-color: #ff9800;}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+/* TRASNSACTION */
+.transaction {
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+  }
+  
+  .transaction:hover,
+  .transaction:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+  }
+  
+  .transaction:hover {
+    transform: translateY(-1px);
+  }
+  
+  .transaction:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+  }
+

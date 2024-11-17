@@ -1,4 +1,4 @@
- # MTPE_BANK
+ # MTPE BANK by PHAM MINH THAO
 
 ![Platform](https://img.shields.io/badge/platform-Android-brightgreen.svg?color=00ADB5&style=for-the-badge)
 ![Repo Size](https://img.shields.io/github/repo-size/Trunks-Pham/MTPE_BANK?color=00ADB5&style=for-the-badge)
@@ -21,7 +21,7 @@ MTPE_BANK is an online banking project developed using PHP, CSS, JavaScript, and
 
 2. **Clone the repository**:
    ```bash
-   git clone https://github.com/<your-username>/MTPE_BANK.git
+   git clone https://github.com/Trunks-Pham/MTPE_BANK.git
    ```
 3. **Install dependencies**:
    - Ensure you have PHP and Composer installed.

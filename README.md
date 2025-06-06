@@ -79,7 +79,7 @@ Below are key visuals of the MTPE_BANK project:
 - **Main Interface**:
   ![MTPE_BANK Main Interface](MTPE-BANK.png)
 - **Vision and Mission**:
-  ![MTPE_BANK Vision and Mission]()
+  ![MTPE_BANK Vision and Mission](MTPE-BANK-TẦM-NHÌN-SỨ-MỆNH.png)
 
 ## Contributing
 

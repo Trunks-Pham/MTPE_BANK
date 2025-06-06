@@ -4,7 +4,9 @@
 
 MTPE_BANK is an online banking project developed using PHP, CSS, JavaScript, and Hack. This project aims to provide the fundamental functionalities of an online banking system, including account management, transactions, and security, with a focus on delivering a seamless and secure user experience.
 
-Watch our introductory video here: [MTPE_BANK Introduction Video](https://www.youtube.com/watch?v=3zBvXEDJb-w)
+Watch our introductory video below:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3zBvXEDJb-w?si=Y9-omasg3JI9WdRz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Features
 

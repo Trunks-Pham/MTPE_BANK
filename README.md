@@ -76,13 +76,10 @@ Before setting up the project, ensure you have the following installed:
 ## Screenshots
 
 Below are key visuals of the MTPE_BANK project:
-
-- **Vision and Mission**:
-  ![MTPE_BANK Vision and Mission](MTPE-BANK TẦM NHÌN SỨ MỆNH.png)
-- **Technology Development**:
-  ![MTPE_BANK Technology Development](MTPE-BANK-Ngân-Hàng-Phát-Triển-Công-Nghệ-Số-thaopm-125010122004-vtc-edu-vn-Thư-Công-ty-Cổ-phần-Đầu-tư-Phát-triển-Giáo-dục-VTCE.png)
 - **Main Interface**:
   ![MTPE_BANK Main Interface](MTPE-BANK.png)
+- **Vision and Mission**:
+  ![MTPE_BANK Vision and Mission]()
 
 ## Contributing
 

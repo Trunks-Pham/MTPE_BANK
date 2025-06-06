@@ -1,8 +1,5 @@
  # MTPE BANK by PHAM MINH THAO
 
-![Platform](https://img.shields.io/badge/platform-Android-brightgreen.svg?color=00ADB5&style=for-the-badge)
-![Repo Size](https://img.shields.io/github/repo-size/Trunks-Pham/MTPE_BANK?color=00ADB5&style=for-the-badge)
-
 ## Introduction
 
 MTPE_BANK is an online banking project developed using PHP, CSS, JavaScript, and Hack. This project aims to provide the fundamental functionalities of an online banking system, including account management, transactions, and security.

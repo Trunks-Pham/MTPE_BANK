@@ -108,10 +108,6 @@ We welcome contributions from the community! To contribute:
 - Follow best practices for coding, documentation, and testing.
 - Report any issues or bugs via GitHub Issues.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 ## Contact
 
 - **Author**: Pham Minh Thao
